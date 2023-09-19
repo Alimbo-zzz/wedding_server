@@ -7,7 +7,7 @@ const axios = require('axios');
 
 const env = dotenv.config().parsed;
 const PORT = env.PORT || 2020;
-const sheetURL = "https://script.google.com/macros/s/AKfycbzkghZhwC4llGBerFX7SzNGR1Ho77k3vkzIVyRNmuXlsuLinva3LsF6Z4z5_Dikd37zsw/exec";
+const sheetURL = "https://script.google.com/macros/s/AKfycbxSa7_KxxPsjZuOC3it6PiRn4Nq6P7pNjfVvL8JfmW3wcIz01l-LKfS_ubsi8e7dpis3g/exec";
 
 const app = express();
 
