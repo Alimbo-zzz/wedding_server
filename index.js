@@ -13,11 +13,6 @@ app.use(cors());
 app.use(express.json()); // позволяет читать json в запросах
 
 
-
-
-
-console.log(env.SMTP_USER, env.SMTP_PASS, env.SMTP_PORT)
-
 app.post('/send-message', async (req, res) => {
 	try {
 		const { phone, name, message, id = setId() } = req.body;
